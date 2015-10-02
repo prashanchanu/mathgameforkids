@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Maths Game</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="mathgame.css" type="text/css"/>
+        <script src="jquery_min.js" type="text/javascript"></script>
+        <script src="mathgame.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!-- welcome page starts -->
+        <div class="gameWelcomeContainer">
+            <div class="gameTitle">
+                + - Maths Game * /
+            </div>
+            <div class="gameWelcome">
+                Welcome <!-- logged user full name goes here-->
+            </div>
+             <div class="gameButtonList">
+                 <button id="startGame" title="Click to start">Start Game</button>
+                 <a href="#" class="tooltip">
+                     <button id="instuctionGame">Instructions</button>
+                        <span>
+                            <strong>Instructions</strong><br />
+                            <ol>
+                                <li>Type your answer and press Enter key to go next question.</li><br/>
+                                <li>For a wrong answer, you will loose a life.</li><br/>
+								<li>You have only 20 seconds for each attempt. If timeout you will loose a life.</li><br/>
+                                <li>Do not reload the page, while you are playing the game.</li><br/>
+                                <li>If the answer is a decimal value, you can represent it as a 1<sup>st</sup> decimal figure.</li>
+                            </ol>
+                        </span>
+                 </a>
+                 <a href="#" class="tooltip1">
+                    <button id="highscoreGame">High Scores</button>
+                        <span>
+                            <strong>High Scores</strong><br />
+                            <ol>
+                                <li>1<sup>st</sup> place : </li><br/>
+                                <li>2<sup>nd</sup> place : </li><br/>
+                                <li>3<sup>rd</sup> place : </li><br/>
+                                <li>4<sup>th</sup> place : </li><br/>
+                                <li>5<sup>th</sup> place : </li>
+                            </ol>
+                        </span>
+                 </a>
+            </div>
+        </div>
+        <!-- welcome page ends -->
+        
+        <!-- game page starts -->
+        <div class="gameContainer">
+            <div class="gameTitle">
+                + - Maths Game * /
+            </div>
+            <div class="gamingDetails">
+                <div class="gameLives">Life : <span>3</span></div>
+                <div class="gameLevel">Episode : <span class="gameEpisode">1</span><br/>
+					<div class="gameLevelStage">Level: <span class="gameLevelSpan">0</span></div>
+				</div>
+                <div class="gameScore">Score : <span>0</span></div>
+            </div>
+			
+			
+            <div class="clrBoth"></div>
+            <div class="countDown"><span></span></div>
+            <div class="gameStage">
+                <div class="firstDigit">10</div>
+                <div class="arithmaticOperator">/</div>
+                <div class="secondDigit">4</div>
+                <div class="equal">=</div>
+                <div class="finalAnswer"  contenteditable="true"></div>
+            </div>
+            
+                        
+            <div class="gameOver">
+                Game Over
+                <div class="finalGamingDetails">
+                    <div class="finalGameScore">Your Score : <span></span></div>
+                    <div class="finalGameLevel">Your Level : <span></span></div>
+                    <button id="newGame">New Game</button>
+                </div>
+            </div>
+        </div>
+        <!-- game page ends -->
+        
+    </body>
+</html>

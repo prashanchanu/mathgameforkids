@@ -1,0 +1,183 @@
+body{
+    font-family: arial;
+}
+.gameContainer{
+    width:900px;
+    min-height: 600px;
+    background-color: #FFCC66;
+    display: none;
+}
+.gameLives{
+    width:260px;
+    height: 100px;
+    color: #000099;
+    padding: 20px;
+    font-size: 30px;
+    float: left;
+}
+.gameScore{
+    width:260px;
+    height: 100px;
+    color: #000099;
+    padding: 20px;
+    font-size: 30px;
+    float: right;
+    text-align: center;
+    
+}
+.gameLevel{
+    width:260px;
+    height: 100px;
+    color: #000099;
+    padding: 20px;
+    font-size: 30px;
+    float: right;
+    text-align: right;
+}
+/*.gameLevelStage{
+    width:260px;
+    height: 100px;
+    color: #000099;
+    padding: 20px;
+    font-size: 30px;
+    float: right;
+    text-align: right;
+}*/
+.clrBoth{
+    clear: both;
+}
+.gameStage{
+    /*margin-top: 20px;*/
+    font-size: 80px;
+    color: #006600;
+    width:860px;
+    min-height: 200px;
+    padding: 20px;
+}
+.firstDigit{
+    float: left;
+    min-width: 200px;
+    text-align: center;
+}
+.arithmaticOperator{
+    float: left;
+    width: 50px;
+    text-align: center;
+    color: #000;
+}
+.secondDigit{
+    float: left;
+    min-width: 200px;
+    text-align: center;
+}
+.equal{
+    float: left;
+    width: 50px;
+    text-align: center;
+    color: #000;
+}
+.finalAnswer{
+    float: left;
+    min-width: 200px;
+    text-align: center;
+    border: 1px solid #fff;
+    text-align: center;
+    resize: none;
+    border: dashed #fff 1px;
+}
+.gameWelcomeContainer{
+    width:900px;
+    min-height: 600px;
+    background-color: #FFCC66;
+}
+.gameTitle{
+    width:900px;
+    color: #990000;
+    text-align: center;
+    font-size: 80px;
+    height: 100px;
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+.gameWelcome{
+    width:900px;
+    color: #006600;
+    text-align: center;
+    font-size: 50px;
+    height: 60px;
+    padding: 20px 0px;
+}
+.gameButtonList{
+    width: 200px;
+    margin: 20px auto 0px;
+}
+.gameButtonList button{
+    width: 200px;
+    height: 50px;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #000099;
+}
+
+
+a.tooltip, a.tooltip1{outline:none; }
+a.tooltip strong, a.tooltip1 strong{line-height:30px;}
+a.tooltip:hover, a.tooltip1:hover{text-decoration:none;} 
+a.tooltip span, a.tooltip1 span{
+    z-index:10;display:none; padding:14px 20px;
+    width:280px; line-height:16px;
+}
+a.tooltip span{
+    margin-top:-200px; margin-left:210px;
+}
+a.tooltip1 span{
+    margin-top:-265px; margin-left:-340px;
+}
+a.tooltip:hover span, a.tooltip1:hover span{
+    display:inline; position:absolute; color:#111;
+    border:1px solid #DCA; background:#fffAF0;}
+.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+
+a.tooltip span, a.tooltip1 span 
+{
+    border-radius:4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px; 
+    -moz-box-shadow: 5px 5px 8px #CCC;
+    -webkit-box-shadow: 5px 5px 8px #CCC;
+    box-shadow: 5px 5px 8px #CCC;
+}
+.gameOver{
+    display: none;
+    width:900px;
+    color: #ff0000;
+    text-align: center;
+    font-size: 80px;
+    height: 100px;
+    padding: 20px 0px;
+}
+.finalGamingDetails{
+    width: 900px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #000099;
+}
+.finalGamingDetails button{
+    width: 200px;
+    margin: 20px auto 0px;
+    height: 50px;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #000099;
+}
+.countDown{
+    font-size: 80px;
+    color: #000;
+    width:80px;
+    height: 80px;
+    padding: 20px;
+	margin: auto;
+}
